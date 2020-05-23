@@ -17,16 +17,6 @@ class ChatBubbleClipper7 extends CustomClipper<Path> {
       path.addRRect(RRect.fromLTRBAndCorners(0, 0, size.width, size.height,
           topLeft: Radius.circular(radius),
           bottomRight: Radius.circular(radius)));
-
-//    path.moveTo(mainRadius, 0);
-//    path.lineTo(size.width, 0);
-//    path.lineTo(size.width, size.height - mainRadius);
-//    path.arcToPoint(Offset(size.width - mainRadius, size.height),
-//        radius: Radius.circular(mainRadius));
-//    path.lineTo(0, size.height);
-//    path.lineTo(0, mainRadius);
-//    path.arcToPoint(Offset(mainRadius, 0), radius: Radius.circular(mainRadius));
-
     } else {
       path.addRRect(RRect.fromLTRBAndCorners(0, 0, size.width, size.height,
           topRight: Radius.circular(radius),
@@ -41,4 +31,3 @@ class ChatBubbleClipper7 extends CustomClipper<Path> {
     return false;
   }
 }
-

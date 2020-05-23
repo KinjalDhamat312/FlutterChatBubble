@@ -1,3 +1,3 @@
-## 0.0.1
+## 0.0.1 2020-05-23
 
-* TODO: Describe initial release.
+* Different chat bubble 

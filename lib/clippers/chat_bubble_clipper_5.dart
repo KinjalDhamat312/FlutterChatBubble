@@ -3,37 +3,35 @@ import 'package:flutter/painting.dart';
 
 import '../bubble_type.dart';
 
-
 class ChatBubbleClipper5 extends CustomClipper<Path> {
+
   final BubbleType type;
   final double radius;
-
-  final double pinSize;
-
+  final double nipSize;
   final double sizeRatio;
 
   ChatBubbleClipper5(
-      {this.type, this.radius = 15, this.pinSize = 8, this.sizeRatio = 3});
+      {this.type, this.radius = 15, this.nipSize = 8, this.sizeRatio = 3});
 
   @override
   Path getClip(Size size) {
     var path = Path();
 
     if (type == BubbleType.sendBubble) {
-      path.lineTo(size.width - radius - pinSize, 0);
-      path.arcToPoint(Offset(size.width - pinSize, radius),
+      path.lineTo(size.width - radius - nipSize, 0);
+      path.arcToPoint(Offset(size.width - nipSize, radius),
           radius: Radius.circular(radius));
 
-      path.lineTo(size.width - pinSize, size.height - sizeRatio * pinSize);
+      path.lineTo(size.width - nipSize, size.height - sizeRatio * nipSize);
 
       path.quadraticBezierTo(
-          size.width - pinSize, size.height - pinSize, size.width, size.height);
-      path.quadraticBezierTo(size.width - pinSize, size.height - pinSize,
-          size.width - sizeRatio * pinSize, size.height - pinSize);
+          size.width - nipSize, size.height - nipSize, size.width, size.height);
+      path.quadraticBezierTo(size.width - nipSize, size.height - nipSize,
+          size.width - sizeRatio * nipSize, size.height - nipSize);
 
-      path.lineTo(radius, size.height - pinSize);
+      path.lineTo(radius, size.height - nipSize);
 
-      path.arcToPoint(Offset(0, size.height - radius - pinSize),
+      path.arcToPoint(Offset(0, size.height - radius - nipSize),
           radius: Radius.circular(radius));
 
       path.lineTo(0, radius);
@@ -42,18 +40,18 @@ class ChatBubbleClipper5 extends CustomClipper<Path> {
       path.lineTo(size.width - radius, 0);
       path.arcToPoint(Offset(size.width, radius),
           radius: Radius.circular(radius));
-      path.lineTo(size.width, size.height - radius - pinSize);
-      path.arcToPoint(Offset(size.width - radius, size.height - pinSize),
+      path.lineTo(size.width, size.height - radius - nipSize);
+      path.arcToPoint(Offset(size.width - radius, size.height - nipSize),
           radius: Radius.circular(radius));
 
-      path.lineTo(sizeRatio * pinSize, size.height - pinSize);
+      path.lineTo(sizeRatio * nipSize, size.height - nipSize);
 
-      path.quadraticBezierTo(pinSize, size.height - pinSize, 0, size.height);
-      path.quadraticBezierTo(pinSize, size.height - pinSize, pinSize,
-          size.height - sizeRatio * pinSize);
+      path.quadraticBezierTo(nipSize, size.height - nipSize, 0, size.height);
+      path.quadraticBezierTo(nipSize, size.height - nipSize, nipSize,
+          size.height - sizeRatio * nipSize);
 
-      path.lineTo(pinSize, radius);
-      path.arcToPoint(Offset(radius + pinSize, 0),
+      path.lineTo(nipSize, radius);
+      path.arcToPoint(Offset(radius + nipSize, 0),
           radius: Radius.circular(radius));
     }
 
@@ -61,7 +59,5 @@ class ChatBubbleClipper5 extends CustomClipper<Path> {
   }
 
   @override
-  bool shouldReclip(CustomClipper<Path> oldClipper) {
-    return false;
-  }
+  bool shouldReclip(CustomClipper<Path> oldClipper) => false;
 }
