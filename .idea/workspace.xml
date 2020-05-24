@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54aa1583-0b8d-4043-bfed-246dc74216b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/chat_bubble.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/chat_bubble.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/example 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/example 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/example 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/example 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/example 5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/example 6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/example 7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/example 8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/example 9.png" beforeDir="false" />
-    </list>
+    <list default="true" id="54aa1583-0b8d-4043-bfed-246dc74216b1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/.pub/" />
@@ -49,7 +35,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_1.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="56">
               <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -183,9 +169,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-22" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1301" />
+    <option name="y" value="34" />
     <option name="width" value="1920" />
     <option name="height" value="935" />
   </component>
@@ -205,17 +191,6 @@
             <path>
               <item name="flutter_chat_bubble" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_chat_bubble" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_chat_bubble" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_chat_bubble" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="clippers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_chat_bubble" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_chat_bubble" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -223,11 +198,6 @@
               <item name="flutter_chat_bubble" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_chat_bubble" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_chat_bubble" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,12 +249,20 @@
       <option name="presentableId" value="Default" />
       <updated>1590156954158</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update README.md file">
+      <created>1590301712761</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590301712761</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-109" y="23" width="1920" height="935" extended-state="0" />
+    <frame x="674" y="53" width="1920" height="935" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Captures" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -299,10 +277,10 @@
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="4" />
       <window_info anchor="bottom" id="Debug" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.42586002" />
+      <window_info anchor="bottom" id="Terminal" order="6" visible="true" weight="0.13167259" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32858837" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32858837" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.3289941" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.4543298" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -313,6 +291,10 @@
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Fabric" order="6" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update README.md file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -437,16 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/chat_bubble.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
@@ -527,9 +499,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/chat_bubble.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_1.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="56">
           <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
