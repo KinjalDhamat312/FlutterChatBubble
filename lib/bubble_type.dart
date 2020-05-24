@@ -1,2 +1,1 @@
-
 enum BubbleType { sendBubble, receiverBubble }

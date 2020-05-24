@@ -15,7 +15,6 @@ class ChatBubbleClipper3 extends CustomClipper<Path> {
     var path = Path();
 
     if (type == BubbleType.sendBubble) {
-
       path.moveTo(radius, 0);
       path.lineTo(size.width - radius - nipSize, 0);
       path.arcToPoint(Offset(size.width - nipSize, radius),
@@ -69,5 +68,3 @@ class ChatBubbleClipper3 extends CustomClipper<Path> {
   @override
   bool shouldReclip(CustomClipper<Path> oldClipper) => false;
 }
-
-
