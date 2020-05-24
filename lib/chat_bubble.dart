@@ -42,7 +42,7 @@ class ChatBubble extends StatelessWidget {
         shadowColor: shadowColor ?? Colors.grey.shade200,
         child: Padding(
           padding: setPadding(),
-          child: child,
+          child: child ?? Container(),
         ),
       ),
     );

@@ -131,14 +131,9 @@ class MainScreen extends StatelessWidget {
     alignment: Alignment.topRight,
     margin: EdgeInsets.only(top: 20),
     backGroundColor: Colors.blue,
-    child: Container(
-      constraints: BoxConstraints(
-        maxWidth: MediaQuery.of(context).size.width * 0.7,
-      ),
-      child: Text(
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        style: TextStyle(color: Colors.white),
-      ),
+    child: Text(
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      style: TextStyle(color: Colors.white),
     ),
   );
 
