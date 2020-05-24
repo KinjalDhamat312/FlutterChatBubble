@@ -4,7 +4,7 @@ Flutter widget for creating different types of chat bubble.
 ## Usage
 To use this plugin, add `flutter_chat_bubble` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
-
+## Examples
 [ChatBubble](https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/lib/chat_bubble.dart) widget use for create different chat bubbles. You can use below properties with bubbles.
 
 | Properties | Description |
