@@ -74,7 +74,7 @@ ChatBubble(
 | nipWidth | Width of nip |
 | nipRadius | Radius of nip |
 
-### Example 3
+## Example 3
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%203.png?raw=true" width="500">
 
 ```dart
@@ -92,7 +92,7 @@ ChatBubble(
 | radius | Radius of widget |
 | nipSize | Size of nip |
 
-### Example 4
+## Example 4
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%204.png?raw=true" width="500">
 
 ```dart
@@ -111,7 +111,7 @@ ChatBubble(
 | nipSize | Size of nip |
 | offset | Nip distance from bottom |
 
-### Example 5
+## Example 5
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%205.png?raw=true" width="500">
 
 ```dart
@@ -130,7 +130,7 @@ ChatBubble(
 | nipSize | Size of nip |
 | sizeRatio | Width ratio of nip |
 
-### Example 6
+## Example 6
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%206.png?raw=true" width="500">
 
 ```dart
@@ -150,7 +150,7 @@ ChatBubble(
 | nipSize | Size of nip |
 | sizeRatio | Width ratio of nip |
 
-### Example 7
+## Example 7
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%207.png?raw=true" width="500">
 
 ```dart
@@ -168,7 +168,7 @@ ChatBubble(
 | type | Values BubbleType.sendBubble and BubbleType.receiverBubble |
 | radius | Radius of widget |
 
-### Example 8
+## Example 8
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%208.png?raw=true" width="500">
 
 ```dart
@@ -185,7 +185,7 @@ ChatBubble(
 | type | Values BubbleType.sendBubble and BubbleType.receiverBubble |
 | radius | Radius of widget |
 
-### Example 9
+## Example 9
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%209.png?raw=true" width="500">
 
 ```dart
