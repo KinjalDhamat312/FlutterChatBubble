@@ -119,36 +119,41 @@ class MainScreen extends StatelessWidget {
   }
 
   getTitleText(String title) => Text(
-    title,
-    style: TextStyle(
-      color: Colors.black,
-      fontSize: 20,
-    ),
-  );
+        title,
+        style: TextStyle(
+          color: Colors.black,
+          fontSize: 20,
+        ),
+      );
 
   getSenderView(CustomClipper clipper, BuildContext context) => ChatBubble(
-    clipper: clipper,
-    alignment: Alignment.topRight,
-    margin: EdgeInsets.only(top: 20),
-    backGroundColor: Colors.blue,
-    child: Text(
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      style: TextStyle(color: Colors.white),
-    ),
-  );
+        clipper: clipper,
+        alignment: Alignment.topRight,
+        margin: EdgeInsets.only(top: 20),
+        backGroundColor: Colors.blue,
+        child: Container(
+          constraints: BoxConstraints(
+            maxWidth: MediaQuery.of(context).size.width * 0.7,
+          ),
+          child: Text(
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            style: TextStyle(color: Colors.white),
+          ),
+        ),
+      );
 
   getReceiverView(CustomClipper clipper, BuildContext context) => ChatBubble(
-    clipper: clipper,
-    backGroundColor: Color(0xffE7E7ED),
-    margin: EdgeInsets.only(top: 20),
-    child: Container(
-      constraints: BoxConstraints(
-        maxWidth: MediaQuery.of(context).size.width * 0.7,
-      ),
-      child: Text(
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-        style: TextStyle(color: Colors.black),
-      ),
-    ),
-  );
+        clipper: clipper,
+        backGroundColor: Color(0xffE7E7ED),
+        margin: EdgeInsets.only(top: 20),
+        child: Container(
+          constraints: BoxConstraints(
+            maxWidth: MediaQuery.of(context).size.width * 0.7,
+          ),
+          child: Text(
+            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+            style: TextStyle(color: Colors.black),
+          ),
+        ),
+      );
 }
