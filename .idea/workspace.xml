@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="54aa1583-0b8d-4043-bfed-246dc74216b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/chat_list.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bubble_type.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bubble_type.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/chat_bubble.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/chat_bubble.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_1.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_1.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_3.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_3.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_5.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_5.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -34,18 +27,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1566">
               <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_5.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-268">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -94,13 +75,28 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="71" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="71" />
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screenshots/example 3.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/screenshots/example 1.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pubspec.lock">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -110,30 +106,6 @@
               <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_4.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_6.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="68" column="61" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,7 +128,6 @@
         <option value="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_6.dart" />
         <option value="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_7.dart" />
         <option value="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_9.dart" />
-        <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/example/lib/chat_list.dart" />
         <option value="$PROJECT_DIR$/example/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/chat_bubble.dart" />
@@ -165,12 +136,13 @@
         <option value="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_3.dart" />
         <option value="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_4.dart" />
         <option value="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_5.dart" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="791" />
-    <option name="y" value="217" />
+    <option name="x" value="28" />
+    <option name="y" value="29" />
     <option name="width" value="1920" />
     <option name="height" value="935" />
   </component>
@@ -186,6 +158,11 @@
             <path>
               <item name="flutter_chat_bubble" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_chat_bubble" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_chat_bubble" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_chat_bubble" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,12 +180,13 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/example/lib" />
       <recent name="$PROJECT_DIR$/lib/clippers" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/screenshots" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
@@ -238,7 +216,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="238" y="145" width="1920" height="935" extended-state="0" />
+    <frame x="28" y="29" width="1920" height="935" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Captures" order="1" side_tool="true" />
@@ -255,7 +234,7 @@
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="4" />
       <window_info anchor="bottom" id="Debug" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" visible="true" weight="0.50296557" />
+      <window_info anchor="bottom" id="Terminal" order="6" visible="true" weight="0.06524318" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289941" />
@@ -449,12 +428,21 @@
     <entry file="file://$PROJECT_DIR$/lib/bubble_type.dart">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="71" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="71" />
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/example 3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/example 1.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
