@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54aa1583-0b8d-4043-bfed-246dc74216b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_10.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/example 10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/chat_bubble.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/chat_bubble.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_5.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_5.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_9.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_9.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/example 5.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/example 5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/example 9.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/example 9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -44,6 +34,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="155" selection-start-line="1" selection-start-column="155" selection-end-line="1" selection-end-column="155" />
+            <state relative-caret-position="38">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -89,11 +88,6 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/screenshots/example 9.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/screenshots/example 2.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -148,13 +142,13 @@
         <option value="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_2.dart" />
         <option value="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_3.dart" />
         <option value="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_4.dart" />
-        <option value="$PROJECT_DIR$/CHANGELOG.md" />
         <option value="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_9.dart" />
         <option value="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_5.dart" />
         <option value="$PROJECT_DIR$/example/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/chat_bubble.dart" />
         <option value="$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_10.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/CHANGELOG.md" />
       </list>
     </option>
   </component>
@@ -220,14 +214,14 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/screenshots" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/screenshots" />
       <recent name="$PROJECT_DIR$/example/lib" />
       <recent name="$PROJECT_DIR$/lib/clippers" />
-      <recent name="$PROJECT_DIR$/lib" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/screenshots" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
@@ -266,9 +260,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="82" y="23" width="1920" height="937" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Captures" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -278,15 +271,15 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.03550296" />
-      <window_info anchor="bottom" id="Run" order="1" visible="true" weight="0.19171597" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.19171597" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="4" />
       <window_info anchor="bottom" id="Debug" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.03550296" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.53846157" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32858837" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32781065" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.3289941" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.45325443" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -437,13 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/clippers/chat_bubble_clipper_4.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -551,8 +537,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="155" selection-start-line="1" selection-start-column="155" selection-end-line="1" selection-end-column="155" />
+        <state relative-caret-position="38">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
