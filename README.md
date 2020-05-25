@@ -217,7 +217,7 @@ ChatBubble(
 | sizeRatio | Width ratio of nip. Default value 3 |
 
 ### Example 10
-<img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%210.png?raw=true" width="500">
+<img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%2010.png?raw=true" width="500">
 
 ```dart
 ChatBubble(
