@@ -3,6 +3,7 @@ import 'package:flutter/painting.dart';
 import 'package:flutter_chat_bubble/bubble_type.dart';
 import 'package:flutter_chat_bubble/chat_bubble.dart';
 import 'package:flutter_chat_bubble/clippers/chat_bubble_clipper_1.dart';
+import 'package:flutter_chat_bubble/clippers/chat_bubble_clipper_10.dart';
 import 'package:flutter_chat_bubble/clippers/chat_bubble_clipper_2.dart';
 import 'package:flutter_chat_bubble/clippers/chat_bubble_clipper_3.dart';
 import 'package:flutter_chat_bubble/clippers/chat_bubble_clipper_4.dart';
@@ -108,10 +109,18 @@ class MainScreen extends StatelessWidget {
           getTitleText("Example 9"),
           getSenderView(
               ChatBubbleClipper9(type: BubbleType.sendBubble), context),
+          getReceiverView(
+              ChatBubbleClipper9(type: BubbleType.receiverBubble), context),
+          SizedBox(
+            height: 30,
+          ),
+          getTitleText("Example 10"),
+          getSenderView(
+              ChatBubbleClipper10(type: BubbleType.sendBubble), context),
           Padding(
             padding: EdgeInsets.only(bottom: 10),
             child: getReceiverView(
-                ChatBubbleClipper9(type: BubbleType.receiverBubble), context),
+                ChatBubbleClipper10(type: BubbleType.receiverBubble), context),
           )
         ],
       ),

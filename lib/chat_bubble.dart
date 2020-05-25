@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'bubble_type.dart';
 import 'clippers/chat_bubble_clipper_1.dart';
+import 'clippers/chat_bubble_clipper_10.dart';
 import 'clippers/chat_bubble_clipper_2.dart';
 import 'clippers/chat_bubble_clipper_3.dart';
 import 'clippers/chat_bubble_clipper_4.dart';
@@ -75,9 +76,9 @@ class ChatBubble extends StatelessWidget {
       }
     } else if (clipper is ChatBubbleClipper5) {
       if ((clipper as ChatBubbleClipper5).type == BubbleType.sendBubble) {
-        return EdgeInsets.only(top: 10, bottom: 20, left: 10, right: 20);
+        return EdgeInsets.all(10);
       } else {
-        return EdgeInsets.only(top: 10, bottom: 20, left: 20, right: 10);
+        return EdgeInsets.all(10);
       }
     } else if (clipper is ChatBubbleClipper6) {
       if ((clipper as ChatBubbleClipper6).type == BubbleType.sendBubble) {
@@ -99,9 +100,15 @@ class ChatBubble extends StatelessWidget {
       }
     } else if (clipper is ChatBubbleClipper9) {
       if ((clipper as ChatBubbleClipper9).type == BubbleType.sendBubble) {
-        return EdgeInsets.all(10);
+        return EdgeInsets.only(top: 10, bottom: 15, left: 10, right: 15);
       } else {
-        return EdgeInsets.all(10);
+        return EdgeInsets.only(top: 10, bottom: 15, left: 15, right: 10);
+      }
+    } else if (clipper is ChatBubbleClipper10) {
+      if ((clipper as ChatBubbleClipper10).type == BubbleType.sendBubble) {
+        return EdgeInsets.only(top: 15, bottom: 10, left: 10, right: 15);
+      } else {
+        return EdgeInsets.only(top: 15, bottom: 10, left: 15, right: 10);
       }
     }
 
