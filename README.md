@@ -1,5 +1,5 @@
 # Flutter Chat Bubble
-Flutter widget for creating different types of chat bubble.
+Flutter widget for creating different types of chat bubble. You can use different properties of this Widget and create beautiful Chat Bubbles.
 
 ## Usage
 To use this plugin, add `flutter_chat_bubble` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
@@ -9,7 +9,7 @@ To use this plugin, add `flutter_chat_bubble` as a [dependency in your pubspec.y
 
 | Properties | Description |
 | ------ | ------ |
-| clipper | Different Custom clipper values`ChatBubbleClipper1`,`ChatBubbleClipper2`,`ChatBubbleClipper3`,`ChatBubbleClipper4`,`ChatBubbleClipper5`,`ChatBubbleClipper6`,`ChatBubbleClipper7`,`ChatBubbleClipper8`,`ChatBubbleClipper9`|
+| clipper | Different Custom clipper values`ChatBubbleClipper1`,`ChatBubbleClipper2`,`ChatBubbleClipper3`,`ChatBubbleClipper4`,`ChatBubbleClipper5`,`ChatBubbleClipper6`,`ChatBubbleClipper7`,`ChatBubbleClipper8`,`ChatBubbleClipper9`,`ChatBubbleClipper10`|
 | child | Child of widget bubble |
 | margin | Empty space to surround the decoration. All possible [options](https://api.flutter.dev/flutter/painting/EdgeInsetsGeometry-class.html) |
 | backGroundColor | Background color of widget |
@@ -53,7 +53,7 @@ To use this plugin, add `flutter_chat_bubble` as a [dependency in your pubspec.y
   )
 ```  
 
-| Properties of ChatBubbleClipper1 | Description |
+| Properties of `ChatBubbleClipper1` | Description |
 | ------ | ------ |
 | type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble`|
 | radius | Radius of widget. Default value 10  |
@@ -74,7 +74,7 @@ ChatBubble(
   )
 ```
 
-| Properties of ChatBubbleClipper2 | Description |
+| Properties of `ChatBubbleClipper2` | Description |
 | ------ | ------ |
 | type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
 | radius | Radius of widget. Default value 10  |
@@ -95,7 +95,7 @@ ChatBubble(
   )
 ```  
 
-| Properties of ChatBubbleClipper3 | Description |
+| Properties of `ChatBubbleClipper3` | Description |
 | ------ | ------ |
 | type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
 | radius | Radius of widget. Default value 15 |
@@ -114,7 +114,7 @@ ChatBubble(
   )
 ``` 
 
-| Properties of ChatBubbleClipper4 | Description |
+| Properties of `ChatBubbleClipper4` | Description |
 | ------ | ------ |
 | type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
 | radius | Radius of widget. Default value 5 |
@@ -134,12 +134,12 @@ ChatBubble(
   )
 ```  
 
-| Properties of ChatBubbleClipper5 | Description |
+| Properties of `ChatBubbleClipper5` | Description |
 | ------ | ------ |
 | type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
 | radius | Radius of widget. Default value 15 |
-| nipSize | Size of nip. Default value 8 |
-| sizeRatio | Width ratio of nip. Default value 3 |
+| secondRadius | Second radius for bottom corner of widget. Default value 2 |
+
 
 ### Example 6
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%206.png?raw=true" width="500">
@@ -154,7 +154,7 @@ ChatBubble(
   )
 ```  
 
-| Properties of ChatBubbleClipper6 | Description |
+| Properties of `ChatBubbleClipper6` | Description |
 | ------ | ------ |
 | type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
 | radius | Radius of widget. Default value 10 |
@@ -174,7 +174,7 @@ ChatBubble(
   )
 ```  
 
-| Properties of ChatBubbleClipper7 | Description |
+| Properties of `ChatBubbleClipper7` | Description |
 | ------ | ------ |
 | type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
 | radius | Radius of widget. Default value 25 |
@@ -192,7 +192,7 @@ ChatBubble(
   )
 ```  
 
-| Properties of ChatBubbleClipper8| Description |
+| Properties of `ChatBubbleClipper8` | Description |
 | ------ | ------ |
 | type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
 | radius | Radius of widget. Default value 20 |
@@ -209,10 +209,29 @@ ChatBubble(
     clipper: ChatBubbleClipper9(type: BubbleType.receiverBubble),
   )
 ```  
-
-| Properties of ChatBubbleClipper8| Description |
+| Properties of `ChatBubbleClipper9` | Description |
 | ------ | ------ |
 | type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
 | radius | Radius of widget. Default value 15 |
-| secondRadius | Second radius for bottom corner of widget. Default value 2 |
+| nipSize | Size of nip. Default value 8 |
+| sizeRatio | Width ratio of nip. Default value 3 |
+
+### Example 10
+<img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%210.png?raw=true" width="500">
+
+```dart
+ChatBubble(
+    clipper: ChatBubbleClipper10(type: BubbleType.sendBubble),
+  )
+  
+ChatBubble(
+    clipper: ChatBubbleClipper10(type: BubbleType.receiverBubble),
+  )
+```  
+| Properties of `ChatBubbleClipper10` | Description |
+| ------ | ------ |
+| type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
+| radius | Radius of widget. Default value 15 |
+| nipSize | Size of nip. Default value 8 |
+| sizeRatio | Width ratio of nip. Default value 3 |
 
