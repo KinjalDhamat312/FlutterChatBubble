@@ -9,7 +9,7 @@ To use this plugin, add `flutter_chat_bubble` as a [dependency in your pubspec.y
 
 | Properties | Description |
 | ------ | ------ |
-| clipper | Different Custom clipper values`ChatBubbleClipper1`,`ChatBubbleClipper2`,`ChatBubbleClipper3`,`ChatBubbleClipper4`,`ChatBubbleClipper5`,`ChatBubbleClipper6`,`ChatBubbleClipper7`,`ChatBubbleClipper8`,`ChatBubbleClipper9`,`ChatBubbleClipper10`|
+| clipper | Different Custom clipper values`ChatBubbleClipper1`,`ChatBubbleClipper2` to `ChatBubbleClipper10`|
 | child | Child of widget bubble |
 | margin | Empty space to surround the decoration. All possible [options](https://api.flutter.dev/flutter/painting/EdgeInsetsGeometry-class.html) |
 | backGroundColor | Background color of widget |
