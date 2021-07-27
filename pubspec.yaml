@@ -1,6 +1,6 @@
 name: flutter_chat_bubble
 description: Flutter widget for creating different types of chat bubble. You can use different properties of this Widget and create beautiful Chat Bubbles.
-version: 1.0.2
+version: 2.0.0
 homepage: https://github.com/KinjalDhamat312/FlutterChatBubble.git
 
 environment:
@@ -13,6 +13,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  test: ^1.16.8
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

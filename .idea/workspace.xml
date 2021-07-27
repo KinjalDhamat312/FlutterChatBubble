@@ -29,9 +29,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54aa1583-0b8d-4043-bfed-246dc74216b1" name="Default Changelist" comment="Update README.md file">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/chat_bubble.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/chat_bubble.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +118,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -129,22 +142,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update README.md file" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="2" key="GridCell.Tab.0.bottom" timestamp="1627381482398">
+    <state width="1878" height="551" key="GridCell.Tab.0.bottom" timestamp="1627382959741">
       <screen x="0" y="25" width="1920" height="937" />
     </state>
-    <state width="1878" height="2" key="GridCell.Tab.0.bottom/0.25.1920.937@0.25.1920.937" timestamp="1627381482398" />
-    <state width="1878" height="2" key="GridCell.Tab.0.center" timestamp="1627381482397">
+    <state width="1878" height="551" key="GridCell.Tab.0.bottom/0.25.1920.937@0.25.1920.937" timestamp="1627382959741" />
+    <state width="1878" height="551" key="GridCell.Tab.0.center" timestamp="1627382959740">
       <screen x="0" y="25" width="1920" height="937" />
     </state>
-    <state width="1878" height="2" key="GridCell.Tab.0.center/0.25.1920.937@0.25.1920.937" timestamp="1627381482397" />
-    <state width="1878" height="2" key="GridCell.Tab.0.left" timestamp="1627381482397">
+    <state width="1878" height="551" key="GridCell.Tab.0.center/0.25.1920.937@0.25.1920.937" timestamp="1627382959740" />
+    <state width="1878" height="551" key="GridCell.Tab.0.left" timestamp="1627382959740">
       <screen x="0" y="25" width="1920" height="937" />
     </state>
-    <state width="1878" height="2" key="GridCell.Tab.0.left/0.25.1920.937@0.25.1920.937" timestamp="1627381482397" />
-    <state width="1878" height="2" key="GridCell.Tab.0.right" timestamp="1627381482397">
+    <state width="1878" height="551" key="GridCell.Tab.0.left/0.25.1920.937@0.25.1920.937" timestamp="1627382959740" />
+    <state width="1878" height="551" key="GridCell.Tab.0.right" timestamp="1627382959740">
       <screen x="0" y="25" width="1920" height="937" />
     </state>
-    <state width="1878" height="2" key="GridCell.Tab.0.right/0.25.1920.937@0.25.1920.937" timestamp="1627381482397" />
+    <state width="1878" height="551" key="GridCell.Tab.0.right/0.25.1920.937@0.25.1920.937" timestamp="1627382959740" />
     <state width="346" height="78" key="javadoc.popup.new" timestamp="1627381338620">
       <screen x="0" y="25" width="1920" height="937" />
     </state>
