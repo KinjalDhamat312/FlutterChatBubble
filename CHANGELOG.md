@@ -1,6 +1,6 @@
 ## 1.0.3 2021-07-27
 
-* Migrate to null safty
+* Migrating to null safety
 * Add custom padding in bubble 
 
 
