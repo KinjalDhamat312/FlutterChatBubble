@@ -4,7 +4,7 @@ import 'package:flutter/painting.dart';
 import '../bubble_type.dart';
 
 class ChatBubbleClipper4 extends CustomClipper<Path> {
-  final BubbleType type;
+  final BubbleType? type;
   final double radius;
   final double offset;
   final double nipSize;

@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import '../bubble_type.dart';
 
 class ChatBubbleClipper8 extends CustomClipper<Path> {
-  final BubbleType type;
+  final BubbleType? type;
   final double radius;
 
   ChatBubbleClipper8({this.type, this.radius = 20});

@@ -13,13 +13,13 @@ import 'clippers/chat_bubble_clipper_8.dart';
 import 'clippers/chat_bubble_clipper_9.dart';
 
 class ChatBubble extends StatelessWidget {
-  final CustomClipper clipper;
-  final Widget child;
-  final EdgeInsetsGeometry margin;
-  final double elevation;
-  final Color backGroundColor;
-  final Color shadowColor;
-  final Alignment alignment;
+  final CustomClipper? clipper;
+  final Widget? child;
+  final EdgeInsetsGeometry? margin;
+  final double? elevation;
+  final Color? backGroundColor;
+  final Color? shadowColor;
+  final Alignment? alignment;
 
   ChatBubble({
     this.clipper,
@@ -37,7 +37,7 @@ class ChatBubble extends StatelessWidget {
       alignment: alignment ?? Alignment.topLeft,
       margin: margin ?? EdgeInsets.all(0),
       child: PhysicalShape(
-        clipper: clipper,
+        clipper: clipper as CustomClipper<Path>,
         elevation: elevation ?? 2,
         color: backGroundColor ?? Colors.blue,
         shadowColor: shadowColor ?? Colors.grey.shade200,
