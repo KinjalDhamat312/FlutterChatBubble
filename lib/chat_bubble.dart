@@ -20,6 +20,7 @@ class ChatBubble extends StatelessWidget {
   final Color? backGroundColor;
   final Color? shadowColor;
   final Alignment? alignment;
+  final EdgeInsetsGeometry? padding;
 
   ChatBubble({
     this.clipper,
@@ -29,6 +30,7 @@ class ChatBubble extends StatelessWidget {
     this.backGroundColor,
     this.shadowColor,
     this.alignment,
+    this.padding
   });
 
   @override
@@ -42,7 +44,7 @@ class ChatBubble extends StatelessWidget {
         color: backGroundColor ?? Colors.blue,
         shadowColor: shadowColor ?? Colors.grey.shade200,
         child: Padding(
-          padding: setPadding(),
+          padding: padding ?? setPadding(),
           child: child ?? Container(),
         ),
       ),
