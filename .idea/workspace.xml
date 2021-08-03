@@ -29,9 +29,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54aa1583-0b8d-4043-bfed-246dc74216b1" name="Default Changelist" comment="Update README.md file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,22 +139,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update README.md file" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="551" key="GridCell.Tab.0.bottom" timestamp="1627382959741">
+    <state width="1878" height="551" key="GridCell.Tab.0.bottom" timestamp="1627383420528">
       <screen x="0" y="25" width="1920" height="937" />
     </state>
-    <state width="1878" height="551" key="GridCell.Tab.0.bottom/0.25.1920.937@0.25.1920.937" timestamp="1627382959741" />
-    <state width="1878" height="551" key="GridCell.Tab.0.center" timestamp="1627382959740">
+    <state width="1878" height="551" key="GridCell.Tab.0.bottom/0.25.1920.937@0.25.1920.937" timestamp="1627383420528" />
+    <state width="1878" height="551" key="GridCell.Tab.0.center" timestamp="1627383420527">
       <screen x="0" y="25" width="1920" height="937" />
     </state>
-    <state width="1878" height="551" key="GridCell.Tab.0.center/0.25.1920.937@0.25.1920.937" timestamp="1627382959740" />
-    <state width="1878" height="551" key="GridCell.Tab.0.left" timestamp="1627382959740">
+    <state width="1878" height="551" key="GridCell.Tab.0.center/0.25.1920.937@0.25.1920.937" timestamp="1627383420527" />
+    <state width="1878" height="551" key="GridCell.Tab.0.left" timestamp="1627383420527">
       <screen x="0" y="25" width="1920" height="937" />
     </state>
-    <state width="1878" height="551" key="GridCell.Tab.0.left/0.25.1920.937@0.25.1920.937" timestamp="1627382959740" />
-    <state width="1878" height="551" key="GridCell.Tab.0.right" timestamp="1627382959740">
+    <state width="1878" height="551" key="GridCell.Tab.0.left/0.25.1920.937@0.25.1920.937" timestamp="1627383420527" />
+    <state width="1878" height="551" key="GridCell.Tab.0.right" timestamp="1627383420527">
       <screen x="0" y="25" width="1920" height="937" />
     </state>
-    <state width="1878" height="551" key="GridCell.Tab.0.right/0.25.1920.937@0.25.1920.937" timestamp="1627382959740" />
+    <state width="1878" height="551" key="GridCell.Tab.0.right/0.25.1920.937@0.25.1920.937" timestamp="1627383420527" />
     <state width="346" height="78" key="javadoc.popup.new" timestamp="1627381338620">
       <screen x="0" y="25" width="1920" height="937" />
     </state>
