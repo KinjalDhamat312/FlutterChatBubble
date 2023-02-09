@@ -1,11 +1,12 @@
-# Flutter Chat Bubble
-Discover the ultimate Flutter widget for creating diverse chat UI designs like WhatsApp, Telegram, and more. With its customizable properties, create stunning chat bubbles and elevate the user experience in your messaging app. Enhance your Flutter development skills with this top-notch chat UI widget and make a mark in the world of real-time communication.
+# Flutter Chat Bubble/UI 
+Discover the ultimate Flutter widget for creating diverse chat UI designs like WhatsApp, Telegram, and more. With its customizable properties, create stunning chat UI and elevate the user experience in your messaging app. Enhance your Flutter development skills with this top-notch chat UI widget and make a mark in the world of real-time communication.
 
 ## Usage
-To use this plugin, add `flutter_chat_bubble` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+To integrate the Flutter Chat Bubble plugin into your project by adding 'flutter_chat_bubble' as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+
 
 ## Examples
-[ChatBubble](https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/lib/chat_bubble.dart) widget use for create different chat bubbles. You can use below properties with bubbles.
+Easily create dynamic chat bubbles with the [ChatBubble](https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/lib/chat_bubble.dart) widget in Flutter with the extensive range of properties.
 
 | Properties | Description |
 | ------ | ------ |
