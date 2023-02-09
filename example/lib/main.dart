@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
 import 'package:flutter_chat_bubble/chat_bubble.dart';
 
 void main() => runApp(MyApp());
