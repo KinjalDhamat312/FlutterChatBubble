@@ -243,6 +243,5 @@ ChatBubble(
 | sizeRatio | Width ratio of nip. Default value 3 |
 
 ## Features and bugs
-Submit feature requests and report bugs through the [issue tracker]
-[tracker]: https://github.com/j4qfrost/pubspec/issues
+Submit feature requests and report bugs through the [issue tracker](https://github.com/KinjalDhamat312/FlutterChatBubble/issues).
 
