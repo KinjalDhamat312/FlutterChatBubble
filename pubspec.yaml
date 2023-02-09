@@ -1,6 +1,6 @@
 name: flutter_chat_bubble
 description: Flutter widget for creating different types of chat bubble. You can use different properties of this Widget and create beautiful Chat Bubbles.
-version: 2.0.0
+version: 2.0.1
 homepage: https://github.com/KinjalDhamat312/FlutterChatBubble.git
 
 environment:
@@ -20,19 +20,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-  # This section identifies this Flutter project as a plugin project.
-  # The androidPackage and pluginClass identifiers should not ordinarily
-  # be modified. They are used by the tooling to maintain consistency when
-  # adding or updating assets for this project.
-  plugin:
-    platforms:
-      android:
-        package: chat.com.flutter_chat_bubble
-        pluginClass: FlutterChatBubblePlugin
-      ios:
-        pluginClass: FlutterChatBubblePlugin
-
-
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg
