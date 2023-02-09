@@ -2,8 +2,11 @@
 Discover the ultimate Flutter widget for creating diverse chat UI designs like WhatsApp, Telegram, and more. With its customizable properties, create stunning chat UI and elevate the user experience in your messaging app. Enhance your Flutter development skills with this top-notch chat UI widget and make a mark in the world of real-time communication.
 
 ## Usage
-To integrate the Flutter Chat Bubble plugin into your project by adding 'flutter_chat_bubble' as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
-
+Add this to your package's `pubspec.yaml` file:
+```yaml
+dependencies:
+  flutter_chat_bubble: <latest-version>
+```
 
 ## Examples
 Easily create dynamic chat bubbles with the [ChatBubble](https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/lib/chat_bubble.dart) widget in Flutter with the extensive range of properties.
@@ -18,6 +21,7 @@ Easily create dynamic chat bubbles with the [ChatBubble](https://github.com/Kinj
 | elevation | Elevation of widget |
 | shadowColor | Shadow color of widget |
 | alignment | Align the child within the widget. All possible [options](https://api.flutter.dev/flutter/painting/Alignment-class.html)|
+
 
 ### Example 1
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%201.png?raw=true" width="500">
@@ -62,6 +66,7 @@ Easily create dynamic chat bubbles with the [ChatBubble](https://github.com/Kinj
 | nipHeight | Height of nip. Default value 10 |
 | nipWidth | Width of nip. Default value 15 |
 | nipRadius | Radius of nip. Default value 3 |
+
 
 ### Example 2
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%202.png?raw=true" width="500">
