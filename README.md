@@ -242,3 +242,7 @@ ChatBubble(
 | nipSize | Size of nip. Default value 8 |
 | sizeRatio | Width ratio of nip. Default value 3 |
 
+## Features and bugs
+Submit feature requests and report bugs through the [issue tracker]
+[tracker]: https://github.com/j4qfrost/pubspec/issues
+
