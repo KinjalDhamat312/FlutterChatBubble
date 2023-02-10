@@ -11,6 +11,8 @@ dependencies:
 ## Examples
 Easily create dynamic chat bubbles with the [ChatBubble](https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/lib/chat_bubble.dart) widget in Flutter with the extensive range of properties.
 
+
+
 | Properties | Description |
 | ------ | ------ |
 | clipper | Different Custom clipper values`ChatBubbleClipper1`,`ChatBubbleClipper2` to `ChatBubbleClipper10`|
@@ -24,7 +26,7 @@ Easily create dynamic chat bubbles with the [ChatBubble](https://github.com/Kinj
 
 
 ### Example 1
-<img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%201.png?raw=true" width="500">
+![example 1](https://user-images.githubusercontent.com/25680329/218024561-414c8556-8e38-4943-baef-5e0a13a3d498.png)
 
 ```dart
   ChatBubble(
@@ -69,7 +71,7 @@ Easily create dynamic chat bubbles with the [ChatBubble](https://github.com/Kinj
 
 
 ### Example 2
-<img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%202.png?raw=true" width="500">
+![example 2](https://user-images.githubusercontent.com/25680329/218024725-65aa3b0e-ca87-40ce-b299-148a930bb77a.png)
 
 ```dart
 ChatBubble(
@@ -90,7 +92,8 @@ ChatBubble(
 | nipRadius | Radius of nip. Default value 3 |
 
 ### Example 3
-<img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%203.png?raw=true" width="500">
+![example 3](https://user-images.githubusercontent.com/25680329/218024808-4998b701-0159-4fd7-9ac5-4593577587fb.png)
+
 
 ```dart
 ChatBubble(
@@ -109,7 +112,7 @@ ChatBubble(
 | nipSize | Size of nip. Default value 7 |
 
 ### Example 4
-<img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%204.png?raw=true" width="500">
+![example 4](https://user-images.githubusercontent.com/25680329/218024846-7857310f-8537-4b76-bd1e-f8ef995a0acb.png)
 
 ```dart
 ChatBubble(
@@ -129,7 +132,8 @@ ChatBubble(
 | offset | Nip distance from bottom. Default value 7 |
 
 ### Example 5
-<img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%205.png?raw=true" width="500">
+![example 5](https://user-images.githubusercontent.com/25680329/218024881-5b3d2bc2-f0aa-47e3-b9b0-5286e3f92b8b.png)
+
 
 ```dart
 ChatBubble(
@@ -149,7 +153,8 @@ ChatBubble(
 
 
 ### Example 6
-<img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%206.png?raw=true" width="500">
+![example 6](https://user-images.githubusercontent.com/25680329/218024913-f5d31b3d-c948-4c9b-986d-4b6f37c5d856.png)
+
 
 ```dart
 ChatBubble(
@@ -169,7 +174,8 @@ ChatBubble(
 | sizeRatio | Width ratio of nip. Default value 2 |
 
 ### Example 7
-<img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%207.png?raw=true" width="500">
+![example 7](https://user-images.githubusercontent.com/25680329/218024937-51be038d-9945-4b97-a1ae-24a8428a0529.png)
+
 
 ```dart
 ChatBubble(
@@ -187,7 +193,8 @@ ChatBubble(
 | radius | Radius of widget. Default value 25 |
 
 ### Example 8
-<img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%208.png?raw=true" width="500">
+![example 8](https://user-images.githubusercontent.com/25680329/218025005-22856762-9729-4000-8fdd-008d04e3b1ae.png)
+
 
 ```dart
 ChatBubble(
@@ -205,7 +212,8 @@ ChatBubble(
 | radius | Radius of widget. Default value 20 |
 
 ### Example 9
-<img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%209.png?raw=true" width="500">
+![example 9](https://user-images.githubusercontent.com/25680329/218025044-acc2c285-f2ea-4150-a991-cc9148ab53a3.png)
+
 
 ```dart
 ChatBubble(
@@ -224,7 +232,7 @@ ChatBubble(
 | sizeRatio | Width ratio of nip. Default value 3 |
 
 ### Example 10
-<img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%2010.png?raw=true" width="500">
+![example 10](https://user-images.githubusercontent.com/25680329/218025070-e764cfc7-3ac7-4ee5-838c-3b52c7ffaa52.png)
 
 ```dart
 ChatBubble(
