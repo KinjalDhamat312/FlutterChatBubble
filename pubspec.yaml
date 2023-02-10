@@ -1,6 +1,6 @@
 name: flutter_chat_bubble
 description: "Get a top-notch chat UI widget for Flutter app development. Create diverse designs like WhatsApp and Telegram. Customize properties for stunning UI. Enhance skills and elevate user experience in real-time communication apps."
-version: 2.0.1
+version: 2.0.2
 homepage: https://github.com/KinjalDhamat312/FlutterChatBubble.git
 
 environment:
