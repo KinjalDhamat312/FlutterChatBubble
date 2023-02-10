@@ -2,10 +2,26 @@ import 'package:flutter/material.dart';
 
 import '../bubble_type.dart';
 
+/// This class is a sample of a custom clipper that creates a visually
+/// appealing chat bubble.
+///
+/// The chat bubble is shaped as shown in the following illustration:
+/// ![Image](https://user-images.githubusercontent.com/25680329/218025070-e764cfc7-3ac7-4ee5-838c-3b52c7ffaa52.png)
 class ChatBubbleClipper10 extends CustomClipper<Path> {
+  ///The values assigned to the clipper types [BubbleType.sendBubble] and
+  ///[BubbleType.receiverBubble] are distinct.
   final BubbleType? type;
+
+  ///The radius, which creates the curved appearance of the chat widget,
+  ///has a default value of 15.
   final double radius;
+
+  /// The "nip" creates the curved shape of the chat widget
+  /// and has a default nipSize of 8.
   final double nipSize;
+
+  /// The "nip" shapes the curve of the chat widget, and the
+  /// width ratio is controlled by this property, which has a default value of 3.
   final double sizeRatio;
 
   ChatBubbleClipper10(
