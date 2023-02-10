@@ -11,20 +11,6 @@ dependencies:
 ## Examples
 Easily create dynamic chat bubbles with the [ChatBubble](https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/lib/chat_bubble.dart) widget in Flutter with the extensive range of properties.
 
-
-
-| Properties | Description |
-| ------ | ------ |
-| clipper | Different Custom clipper values`ChatBubbleClipper1`,`ChatBubbleClipper2` to `ChatBubbleClipper10`|
-| child | Child of widget bubble |
-| margin | Empty space to surround the decoration. All possible [options](https://api.flutter.dev/flutter/painting/EdgeInsetsGeometry-class.html) |
-| padding | Empty space between its content and its border. All possible [options](https://api.flutter.dev/flutter/painting/EdgeInsetsGeometry-class.html) |
-| backGroundColor | Background color of widget |
-| elevation | Elevation of widget |
-| shadowColor | Shadow color of widget |
-| alignment | Align the child within the widget. All possible [options](https://api.flutter.dev/flutter/painting/Alignment-class.html)|
-
-
 ### Example 1
 ![example 1](https://user-images.githubusercontent.com/25680329/218024561-414c8556-8e38-4943-baef-5e0a13a3d498.png)
 
@@ -61,15 +47,6 @@ Easily create dynamic chat bubbles with the [ChatBubble](https://github.com/Kinj
   )
 ```  
 
-| Properties of `ChatBubbleClipper1` | Description |
-| ------ | ------ |
-| type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble`|
-| radius | Radius of widget. Default value 10  |
-| nipHeight | Height of nip. Default value 10 |
-| nipWidth | Width of nip. Default value 15 |
-| nipRadius | Radius of nip. Default value 3 |
-
-
 ### Example 2
 ![example 2](https://user-images.githubusercontent.com/25680329/218024725-65aa3b0e-ca87-40ce-b299-148a930bb77a.png)
 
@@ -82,14 +59,6 @@ ChatBubble(
     clipper: ChatBubbleClipper2(type: BubbleType.receiverBubble),
   )
 ```
-
-| Properties of `ChatBubbleClipper2` | Description |
-| ------ | ------ |
-| type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
-| radius | Radius of widget. Default value 10  |
-| nipHeight | Height of nip. Default value 10 |
-| nipWidth | Width of nip. Default value 15 |
-| nipRadius | Radius of nip. Default value 3 |
 
 ### Example 3
 ![example 3](https://user-images.githubusercontent.com/25680329/218024808-4998b701-0159-4fd7-9ac5-4593577587fb.png)
@@ -105,12 +74,6 @@ ChatBubble(
   )
 ```  
 
-| Properties of `ChatBubbleClipper3` | Description |
-| ------ | ------ |
-| type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
-| radius | Radius of widget. Default value 15 |
-| nipSize | Size of nip. Default value 7 |
-
 ### Example 4
 ![example 4](https://user-images.githubusercontent.com/25680329/218024846-7857310f-8537-4b76-bd1e-f8ef995a0acb.png)
 
@@ -123,13 +86,6 @@ ChatBubble(
     clipper: ChatBubbleClipper4(type: BubbleType.receiverBubble),
   )
 ``` 
-
-| Properties of `ChatBubbleClipper4` | Description |
-| ------ | ------ |
-| type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
-| radius | Radius of widget. Default value 5 |
-| nipSize | Size of nip. Default value 10 |
-| offset | Nip distance from bottom. Default value 7 |
 
 ### Example 5
 ![example 5](https://user-images.githubusercontent.com/25680329/218024881-5b3d2bc2-f0aa-47e3-b9b0-5286e3f92b8b.png)
@@ -145,13 +101,6 @@ ChatBubble(
   )
 ```  
 
-| Properties of `ChatBubbleClipper5` | Description |
-| ------ | ------ |
-| type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
-| radius | Radius of widget. Default value 15 |
-| secondRadius | Second radius for bottom corner of widget. Default value 2 |
-
-
 ### Example 6
 ![example 6](https://user-images.githubusercontent.com/25680329/218024913-f5d31b3d-c948-4c9b-986d-4b6f37c5d856.png)
 
@@ -165,13 +114,6 @@ ChatBubble(
     clipper: ChatBubbleClipper6(type: BubbleType.receiverBubble),
   )
 ```  
-
-| Properties of `ChatBubbleClipper6` | Description |
-| ------ | ------ |
-| type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
-| radius | Radius of widget. Default value 10 |
-| nipSize | Size of nip. Default value 8 |
-| sizeRatio | Width ratio of nip. Default value 2 |
 
 ### Example 7
 ![example 7](https://user-images.githubusercontent.com/25680329/218024937-51be038d-9945-4b97-a1ae-24a8428a0529.png)
@@ -187,11 +129,6 @@ ChatBubble(
   )
 ```  
 
-| Properties of `ChatBubbleClipper7` | Description |
-| ------ | ------ |
-| type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
-| radius | Radius of widget. Default value 25 |
-
 ### Example 8
 ![example 8](https://user-images.githubusercontent.com/25680329/218025005-22856762-9729-4000-8fdd-008d04e3b1ae.png)
 
@@ -206,11 +143,6 @@ ChatBubble(
   )
 ```  
 
-| Properties of `ChatBubbleClipper8` | Description |
-| ------ | ------ |
-| type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
-| radius | Radius of widget. Default value 20 |
-
 ### Example 9
 ![example 9](https://user-images.githubusercontent.com/25680329/218025044-acc2c285-f2ea-4150-a991-cc9148ab53a3.png)
 
@@ -224,12 +156,6 @@ ChatBubble(
     clipper: ChatBubbleClipper9(type: BubbleType.receiverBubble),
   )
 ```  
-| Properties of `ChatBubbleClipper9` | Description |
-| ------ | ------ |
-| type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
-| radius | Radius of widget. Default value 15 |
-| nipSize | Size of nip. Default value 8 |
-| sizeRatio | Width ratio of nip. Default value 3 |
 
 ### Example 10
 ![example 10](https://user-images.githubusercontent.com/25680329/218025070-e764cfc7-3ac7-4ee5-838c-3b52c7ffaa52.png)
@@ -243,12 +169,6 @@ ChatBubble(
     clipper: ChatBubbleClipper10(type: BubbleType.receiverBubble),
   )
 ```  
-| Properties of `ChatBubbleClipper10` | Description |
-| ------ | ------ |
-| type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
-| radius | Radius of widget. Default value 15 |
-| nipSize | Size of nip. Default value 8 |
-| sizeRatio | Width ratio of nip. Default value 3 |
 
 ## Features and bugs
 Submit feature requests and report bugs through the [issue tracker](https://github.com/KinjalDhamat312/FlutterChatBubble/issues).
